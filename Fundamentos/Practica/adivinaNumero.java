@@ -20,13 +20,10 @@ public class adivinaNumero {
             numero = entrada.nextInt();
 
             if (aleatorio < numero) { 
-
                 System.out.println("Mas bajo");
+                continue;
             }
-            else if (aleatorio > numero) {
-                
-                System.out.println("Mas alto");
-            }
+            System.out.println("Alto");
         }
         System.out.println("Correcto. Lo has consegido en " + intentos + " intentos.");            
     }

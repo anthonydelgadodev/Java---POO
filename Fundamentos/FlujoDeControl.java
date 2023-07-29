@@ -33,12 +33,12 @@ public class FlujoDeControl {
 
         if (edad < 18) {
             System.out.println("Eres un adolecente");
+            return;
         }
-        else if (edad < 50) {
+        if (edad < 50) {
             System.out.println("Eres un adulto");
+            return;
         }
-        else {
-            System.out.println("Estas viejito, ve a descansar");
-        }       
+        System.out.println("Estas viejito, ve a descansar");     
     }
 }
