@@ -10,27 +10,30 @@
      }
 */
 
-import javax.swing.JOptionPane;
 
+import javax.swing.JOptionPane;
 public class BucleFor {
 
     public static void main(String[] args) {
         
-        boolean arroba = false;
+        int arroba = 0;
+        boolean punto = false;
 
         String mail = JOptionPane.showInputDialog("Introduce tu email");
          
         for (int i = 0; i < mail.length(); i++) {
 
              if (mail.charAt(i) == '@' ) {
-                arroba = true;
+                arroba++;
+            }
+            if (mail.charAt(i) == '.' ) {
+                punto = true;
             }
         }
-        if (arroba == true) {
+        if (arroba == 1 && punto == true) {
             System.out.println("El email es correcto");
             return;
         }
         System.out.println("El email no es correcto");
     }
 }
-
