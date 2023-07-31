@@ -9,8 +9,8 @@
      }While (condicion);  
 */
 
-import javax.swing.*;
 
+import javax.swing.*;
 public class BucleDoWhile {
 
     public static void main(String[] args) {
