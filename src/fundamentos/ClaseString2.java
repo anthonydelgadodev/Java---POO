@@ -1,3 +1,5 @@
+package src.fundamentos;
+
 public class ClaseString2 {
     public static void main(String[] args) {
         

@@ -24,6 +24,8 @@
 // + : une o concatena
 
 
+package src.fundamentos;
+
 public class Operadores {
 
     public static void main(String[] args) {

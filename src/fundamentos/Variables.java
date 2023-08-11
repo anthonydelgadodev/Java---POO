@@ -15,6 +15,7 @@
 // Es darle un valor. Nombre_variable=valor. Ej: salario=2000; Java no permite utilizar variables que no se hayan iniciado.
 
 
+package src.fundamentos;
 
 public class Variables {
 

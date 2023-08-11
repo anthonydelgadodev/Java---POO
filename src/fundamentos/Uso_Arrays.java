@@ -1,4 +1,4 @@
-package Practica;
+package src.fundamentos;
 
 import javax.swing.*;
 public class Uso_Arrays {

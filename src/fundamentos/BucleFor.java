@@ -11,6 +11,8 @@
 */
 
 
+package src.fundamentos;
+
 import javax.swing.JOptionPane;
 public class BucleFor {
 

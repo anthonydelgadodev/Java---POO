@@ -1,4 +1,4 @@
-package Practica;
+package src.fundamentos;
 
 public class Ejemplo_Array_2D {
     public static void main(String[] args) {

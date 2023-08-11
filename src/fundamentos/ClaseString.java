@@ -17,6 +17,7 @@
 // equalsIgnoreCase(cadena): igual que el anterior pero sin tener en cuenta mayusculas y minusculas.
 
 
+package src.fundamentos;
 
 public class ClaseString {
     

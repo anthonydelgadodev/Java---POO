@@ -14,6 +14,8 @@
 // El vaor de una constante no podra cambiar.
 
 
+package src.fundamentos;
+
 public class Constantes {
 
     public static void main(String[] args) {

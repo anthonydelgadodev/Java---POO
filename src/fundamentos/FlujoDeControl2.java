@@ -10,6 +10,8 @@
 // } default
 
 
+package src.fundamentos;
+
 import java.util.*;
 import javax.swing.*;
 

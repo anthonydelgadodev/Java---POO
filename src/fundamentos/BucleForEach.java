@@ -3,6 +3,9 @@
 
 /* El uso de Java ForEach nos permite recorrer la lista de elementos de una forma mas compacta y el código se reduce.  */
 
+
+package src.fundamentos;
+
 public class BucleForEach {
     public static void main(String[] args) {
         

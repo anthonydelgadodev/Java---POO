@@ -30,6 +30,8 @@
 /* substring()  equals() */   /* round() sqrt() */
 
 
+package src.fundamentos;
+
 import java.util.Scanner; // Importamos el paquete util y la clase Scanner.
 public class JerarquiaPaquetes {
 

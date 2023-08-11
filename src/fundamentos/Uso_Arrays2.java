@@ -1,4 +1,4 @@
-package Practica;
+package src.fundamentos;
 
 public class Uso_Arrays2 {
     public static void main(String[] args) {

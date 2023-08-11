@@ -1,4 +1,4 @@
-package Practica;
+package src.fundamentos;
 
 import java.util.*;
 public class adivinaNumero {

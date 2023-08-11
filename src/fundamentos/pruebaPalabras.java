@@ -1,7 +1,7 @@
-package Practica;
+package src.fundamentos;
+
 import javax.swing.*;
 import java.util.*;
-
 public class pruebaPalabras {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);

@@ -1,6 +1,8 @@
 /* Matrices Bidimensionales */
 
 
+package src.fundamentos;
+
 public class MatricesBidimensionales {
     public static void main(String[] args) {
         

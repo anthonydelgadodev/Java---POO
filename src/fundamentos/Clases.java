@@ -13,6 +13,9 @@
 // Math.roud(decimal): redondeo de un numero
 // Math.PI: constante de clase con el numero PI
 
+
+package src.fundamentos;
+
 public class Clases {
 
     public static void main(String[] args) {

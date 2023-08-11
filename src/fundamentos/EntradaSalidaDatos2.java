@@ -1,3 +1,5 @@
+package src.fundamentos;
+
 import javax.swing.*; //Los metodos de esta clase son estaticos "static"
 public class EntradaSalidaDatos2 {
 

@@ -9,6 +9,9 @@
      }  
 */
 
+
+package src.fundamentos;
+
 import javax.swing.*;
 
 public class BucleWhile {

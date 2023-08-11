@@ -34,6 +34,8 @@
 
 
 
+package src.fundamentos;
+
 public class Matrices {
     public static void main(String[] args) {
         

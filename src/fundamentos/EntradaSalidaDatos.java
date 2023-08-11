@@ -12,8 +12,10 @@
 /* JOptionPane */
 /* showInputDialog() */ //Metodo estatico, para usarlo se escribiria asi: JOptionPane.showInputDialog()
 
-import java.util.*;//Importo con * todas las clases
 
+package src.fundamentos;
+
+import java.util.*;//Importo con * todas las clases
 public class EntradaSalidaDatos {
         public static void main(String[] args) {
 

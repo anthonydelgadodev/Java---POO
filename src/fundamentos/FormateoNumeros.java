@@ -1,5 +1,6 @@
-import javax.swing.*;
+package src.fundamentos;
 
+import javax.swing.*;
 public class FormateoNumeros {
     
     public static void main(String[] args) {
