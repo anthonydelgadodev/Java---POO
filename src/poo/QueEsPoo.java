@@ -1,4 +1,3 @@
-package src.POO;
 /* Que es la programacion orientada a objetos? */
 
 

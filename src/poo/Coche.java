@@ -1,3 +1,5 @@
+package src.poo;
+
 public class Coche {
 
     int ruedas;
@@ -12,7 +14,8 @@ public class Coche {
         ruedas = 4;
         largo = 2000;
         ancho = 300;
-        motor = 1600;
+        motor = 1995;
         peso = 500;
     }
 }
+
