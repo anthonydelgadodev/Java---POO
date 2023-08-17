@@ -33,6 +33,3 @@
 // - Renault.frena();
 // - Renault.gira();               nombre.metodo
 // - Renault.acelera();
-
-
-
