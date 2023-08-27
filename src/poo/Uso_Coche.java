@@ -5,9 +5,14 @@ public class Uso_Coche {
 
         Coche micoche = new Coche(); //Instanciar una clase.
 
-        micoche.establece_color();
+        micoche.establece_color("amarillo");//metodo establece_color
+
+        System.out.println(micoche.datos_generales());
 
         System.out.println(micoche.dime_color());
+
+        micoche.configura_asientos("si");
+        System.out.println(micoche.dime_asientos());
 
         /* 
         System.out.println("Este coche tiene " + Renault.ruedas + " ruedas.");
