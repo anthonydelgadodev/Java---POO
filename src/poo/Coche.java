@@ -47,7 +47,7 @@ public class Coche {
     }
 
     public void configura_asientos(String asientos_cuero){//Metodo Setter
-        if (asientos_cuero == "si"){
+        if (asientos_cuero.equalsIgnoreCase("si")){
             this.asientos_cuero = true;
         }else {
             this.asientos_cuero = false;
@@ -57,8 +57,49 @@ public class Coche {
         if(asientos_cuero == true){
             return "El coche tiene asientos de cuero";
         }else {
-            return "El coce tiene asientos de serie";
+            return "El coche tiene asientos de serie";
         }
+    }
+
+    public void configura_climatizador(String climatizador){//Metodo Setter
+        if(climatizador.equalsIgnoreCase("si")){
+            this.climatizador = true;
+        }else{
+            this.climatizador = false;
+        }
+    }
+    public String dime_climatizador(){//Metodo Getter
+        if(climatizador == true){
+            return "El coche incorpora climatizador";
+        }else{
+            return "El coche lleva aire acondicionado";
+        }
+    }
+
+    public String dime_pesoCoche(){//Metodo Setter y Getter (mala practica)
+        int peso_carroceria = 500;
+        peso_total = peso_plataforma + peso_carroceria;
+
+        if(asientos_cuero == true){
+            peso_total = peso_total + 50;
+        }
+        if(climatizador == true){
+            peso_total = peso_total + 20;
+        }
+
+        return "El peso del coche es " + peso_total + " Kg";
+    }
+
+    public int precio_coche(){//Metodo Getter
+        int precio_final = 10000;
+
+        if(asientos_cuero == true){
+            precio_final += 2000;
+        }
+        if(climatizador == true){
+            precio_final += 1500;
+        }
+        return precio_final;
     }
 }
 
